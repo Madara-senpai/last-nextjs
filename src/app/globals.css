@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-inter);
+}
+
+/* In globals.css or styles.css */
+.prose img {
+  width: 100%;
+  max-width: 700px; /* Adjust the size as needed */
+  height: auto;
+  border-radius: 8px; /* Rounded corners */
+  margin: 1rem 0; /* Space around the images */
+  display: block; /* Make sure the image is a block element */
+}
+
+.prose img:hover {
+  /* Simple hover effect */
+  opacity: 0.9;
+}
